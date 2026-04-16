@@ -7,6 +7,6 @@ public class APIHealth {
 
     @GetMapping("/health")
     public String apiHealth(){
-        return "OK";
+        return "API is Running OK";
     }
 }
